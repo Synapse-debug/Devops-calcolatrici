@@ -1,0 +1,25 @@
+# README
+
+Questo codice contiene una semplice calcolatrice che esegue l'operazione di:
+
+- somma tra due numeri
+
+Include anche test unitari per verificare il corretto finzionamento della funzione somma
+
+- verifica che l'interprete sia quello giusto
+  - where python3 (Windows)
+
+- Installare le dipendenze
+  - pip install pytest
+
+## Esecuzione normale
+
+python3 calcolatrice.py
+
+## Esecuzione dei test
+
+pytest test_calcolatrice
+
+## Installazione ambiente virtuale
+
+py -m venv .venv
