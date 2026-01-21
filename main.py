@@ -33,6 +33,7 @@ def main():
                 risultato = sottrazione(num1, num2)
                 operatore = "-"
             elif scelta == '3':
+
                 risultato = moltiplicazione(num1, num2)
                 operatore = "*"
             elif scelta == '4':
@@ -48,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+#test
