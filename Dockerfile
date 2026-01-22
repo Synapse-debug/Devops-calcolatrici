@@ -7,8 +7,8 @@ WORKDIR /app
 
 RUN useradd -m appuser
 
-COPY requirements.in .
-RUN pip install --no-cache-dir -r requirements.in
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 RUN chown -R appuser:appuser /app
