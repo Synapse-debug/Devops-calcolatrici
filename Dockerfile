@@ -14,4 +14,4 @@ COPY . .
 RUN chown -R appuser:appuser /app
 USER appuser
 
-CMD ["python", "calcolatrice.py"]
+CMD ["python", "main.py"]

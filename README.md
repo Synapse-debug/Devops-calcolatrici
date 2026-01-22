@@ -29,6 +29,6 @@ uv pip sync requirements.txt
 uv pip compile requirements.txt
 
 docker build -t devops-calcolatrice:local .
-docker run -it --rm devops-calcolatrice:local
+docker run --rm -it devops-calcolatrice:local
 
 # Devops-calcolatrice
