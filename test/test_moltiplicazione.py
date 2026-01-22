@@ -1,4 +1,4 @@
-from operazioni import moltiplicazione
+from ..operazioni import moltiplicazione
 import pytest
 
 # --- Test Moltiplicazione ---

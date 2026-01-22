@@ -1,4 +1,4 @@
-from operazioni import somma
+from ..operazioni import somma
 
 import pytest
 
