@@ -1,7 +1,7 @@
 name: docker-build
 on:
   workflow_run:
-    workflows: ["pytest"] # deve combaciare col name: del workflow pytest
+    workflows: ["pytest Pipeline"] # deve combaciare col name: del workflow pytest
     types: [completed]
 
 jobs:
