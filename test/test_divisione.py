@@ -1,4 +1,4 @@
-from ..operazioni import divisione
+from operazioni import divisione
 import pytest
 
 # --- Test Divisione ---

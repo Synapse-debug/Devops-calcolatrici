@@ -1,6 +1,4 @@
-from ..operazioni import somma
-
-import pytest
+from operazioni import somma
 
 def test_somma_positivi():
     assert somma(2, 3) == 5

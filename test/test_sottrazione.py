@@ -1,5 +1,5 @@
-from ..operazioni import sottrazione
-import pytest
+from operazioni import sottrazione
+
 
 def test_sottrazione_positivi():
     assert sottrazione(10, 5) == 5
