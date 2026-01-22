@@ -2,7 +2,7 @@ name: docker-build-and-push
 
 on:
   workflow_run:
-    workflows: ["pytest"] # deve combaciare col name: del workflow test
+    workflows: ["pytest Pipeline"] # deve combaciare col name: del workflow test
     types:
       - completed
 
